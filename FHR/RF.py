@@ -12,7 +12,7 @@ num_features = 21
 num_trees = 10
 max_nodes = 100
 maindir = '/home/claude/Documents/DS_CERT/'
-df = pd.read_csv(maindir +'input/train.csv')
+df = pd.read_csv(maindir +'input/train2.csv')
 
 #Divide up the data and labels
 train = df.sample(frac=0.8)
